@@ -12,8 +12,8 @@ public class ConferenceService {
     @Transactional
     public Conference createConference(String name, LocalDate date) {
         Conference conference = new Conference();
-        conference.name = name;
         conference.date = date;
+        conference.name = name;
         conference.persist();
         Log.infov("Conference {0} created", name);
         return conference;

@@ -10,7 +10,7 @@ quarkus create app sk.malyp:nconnect-service --extension="rest-jackson"
 ```
 
 ```shell script
-quarkus ext add io.quarkus:quarkus-hibernate-orm-panache
+quarkus ext add io.quarkus:quarkus-hibernate-orm-panache,io.quarkus:quarkus-smallrye-openapi,io.quarkus:quarkus-smallrye-health
 ```
 
 ## Running the application in dev mode

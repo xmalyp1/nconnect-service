@@ -15,7 +15,7 @@ public class ConferenceService {
         conference.date = date;
         conference.name = name;
         conference.persist();
-        Log.infov("Conference {0} created", name);
+        Log.debugv("Conference {0} created", name);
         return conference;
     }
 

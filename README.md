@@ -1,4 +1,4 @@
-# NConnect Service
+# Welcome NConnect 2025, Welcome Nitra!
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
@@ -8,6 +8,7 @@ To create such a project use the following command:
 ```shell script
 quarkus create app sk.malyp:nconnect-service --extension="rest-jackson"
 ```
+## Add some extensions
 
 ```shell script
 quarkus ext add io.quarkus:quarkus-hibernate-orm-panache,io.quarkus:quarkus-smallrye-openapi,io.quarkus:quarkus-smallrye-health
@@ -22,6 +23,14 @@ You can run your application in dev mode that enables live coding using:
 ```
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
+
+## Features to present
+
+
+- Project structure - Dockerfiles, ArC, Config, Testing, Dev Services! 
+- Testing CLI
+- Dev UI, Health Checks, Endpoint Ratings, OpenAPI & Swagger
+- Nice to have - Panache Entity, Rest Assured
 
 ## Packaging and running the application
 
